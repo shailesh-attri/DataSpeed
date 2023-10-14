@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.app {
+    /* From https://css.glass */
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
+//     background-color:#0f0e13;
+//   background-image: 
+//     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+//     radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+//     radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+    height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    color: white;
+    a {
+        color: rgb(148, 136, 136);
+    }
+    scroll-behavior: smooth;
+     /* Firefox */
+}
+.app::-webkit-scrollbar {
+    display: none;
+  }
+  .MainCon{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    height: 100vh;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 70%;
+    border: 1px solid black;
+    height: auto;
+    padding: 2rem;
+
+    background: rgba(140,39,81,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+
+.hello {
+    padding: 0 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    .copyright{
+        margin-bottom: 2rem;
+    }
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+    }
+
+    .example {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .speed {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        height: 300px;
+        padding: 1rem;
+        gap: 0;
+
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+        color: rgb(72, 69, 69);
+        backdrop-filter: blur(0px);
+
+        
+    }
+
+
+    button {
+        margin-right: 0.5rem;
+    }
+    
+
+    input {
+        width: 70px;
+        background: transparent;
+        border: 1px solid white;
+        color: rgb(7, 7, 7);
+        padding: 0 0.5rem;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-family: 'Comfortaa', cursive;
+        color: rgb(18, 51, 51);
+        .in1{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+
+    .SpeedHead {
+        font-size: 40px;
+        padding: 1rem;
+        font-weight: bold;
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        button {
+            margin-top: 1.5rem;
+            display: inline-block;
+            padding: 10px 32px;
+            border: 1px solid black;
+            text-decoration: none;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 14px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            text-transform: uppercase;
+            
+        }
+        button:hover{
+            background-color: rgba(195, 172, 172, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(100px);
+                font-weight: bold;
+                
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 100px;
+    color: rgb(159, 158, 158);
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 1rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.copyright{
+    font-size: 10px;
+    margin-top: 2rem;
+}
